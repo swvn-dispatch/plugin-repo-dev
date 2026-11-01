@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:58:14Z",
+  "generated_at": "2026-11-01T04:47:58Z",
   "manifest": {
     "slug": "automap-channelarr",
     "name": "Automap Channelarr",
@@ -10,7 +10,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-10-27T20:30:32-04:00",
-    "download_count": 0,
+    "download_count": 1,
     "latest": {
       "version": "0.2.0",
       "commit_sha": "11962f98d23be75084ab4c565f834e547c2ad0a3",
@@ -25,7 +25,7 @@
       "latest_url": "automap-channelarr-0.2.0/automap-channelarr-0.2.0.zip",
       "url": "automap-channelarr-0.2.0/automap-channelarr-0.2.0.zip",
       "size": 320,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -40,7 +40,7 @@
         "min_dispatcharr_version": "0.20.0",
         "url": "automap-channelarr-0.2.0/automap-channelarr-0.2.0.zip",
         "size": 320,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }
