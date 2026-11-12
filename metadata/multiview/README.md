@@ -2,7 +2,7 @@
 
 # Multiview
 
-**Version:** `0.5.0` | **Author:** sethwv | **Last Updated:** Oct 15 2026, 19:58 UTC
+**Version:** `0.6.0` | **Author:** sethwv | **Last Updated:** Nov 06 2026, 16:17 UTC
 
 Tile multiple Dispatcharr channel streams into multi-view outputs using FFmpeg
 
@@ -14,22 +14,22 @@ Tile multiple Dispatcharr channel streams into multi-view outputs using FFmpeg
 
 ### Latest Release
 
-- **Download:** [`multiview-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.5.0/multiview-0.5.0.zip)
-- **Built:** Oct 28 2026, 13:35 UTC
-- **Source Commit:** [`db79a9f`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/db79a9f0d2accf70c4fc923bbdf5a6ef734427bb)
+- **Download:** [`multiview-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.6.0/multiview-0.6.0.zip)
+- **Built:** Nov 12 2026, 17:17 UTC
+- **Source Commit:** [`2e6aa54`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2e6aa54628f6581c86791d1b7dc0bacbad59e7b3)
 
 **Checksums:**
 ```
-MD5:    fd94aa4f77330852a820cc0bab410513
-SHA256: cb76b131c835112b3878fc0817bb0fb3da314bcf5d4106eeae5e9b3331e649bc
+MD5:    63c20bf003dee34a04d9ceba006bb3b1
+SHA256: 1be4fe1d79beae25c5d5d4f5c1b18c354ab045e82cdd6a87f6b713af46e600ff
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `0.6.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.6.0/multiview-0.6.0.zip) | Nov 12 2026, 17:17 UTC | [`2e6aa54`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2e6aa54628f6581c86791d1b7dc0bacbad59e7b3) | 63c20bf003dee34a04d9ceba006bb3b1 | 1be4fe1d79beae25c5d5d4f5c1b18c354ab045e82cdd6a87f6b713af46e600ff |
 | `0.5.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.5.0/multiview-0.5.0.zip) | Oct 28 2026, 13:35 UTC | [`db79a9f`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/db79a9f0d2accf70c4fc923bbdf5a6ef734427bb) | fd94aa4f77330852a820cc0bab410513 | cb76b131c835112b3878fc0817bb0fb3da314bcf5d4106eeae5e9b3331e649bc |
-| `0.5.0-dev-be18c70e` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.5.0-dev-be18c70e/multiview-0.5.0-dev-be18c70e.zip) | Oct 28 2026, 20:48 UTC | [`0e90fcc`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/0e90fcc9d57acafbb0dbb166cfbdf4574a7c2d59) | 116a9fb1f4ab907158864c0a75fc0aeb | edc05fd16912078a45939661d8dc5302492a36cc70201b517e85ae6a6d13280e |
 
 ---
 

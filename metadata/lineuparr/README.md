@@ -2,7 +2,7 @@
 
 # Lineuparr
 
-**Version:** `1.26.2901915` | **Author:** PiratesIRC | **Last Updated:** Oct 17 2026, 21:57 UTC
+**Version:** `1.26.3052143` | **Author:** PiratesIRC | **Last Updated:** Nov 01 2026, 21:50 UTC
 
 Mirror real-world provider channel lineups by creating channel groups, channels, and fuzzy-matching IPTV streams to them.
 
@@ -14,20 +14,21 @@ Mirror real-world provider channel lineups by creating channel groups, channels,
 
 ### Latest Release
 
-- **Download:** [`lineuparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.2901915/lineuparr-1.26.2901915.zip)
-- **Built:** Oct 28 2026, 13:35 UTC
-- **Source Commit:** [`0d24250`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/0d24250ed3d41c58f7901674909f2b88042e892e)
+- **Download:** [`lineuparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.3052143/lineuparr-1.26.3052143.zip)
+- **Built:** Nov 12 2026, 17:17 UTC
+- **Source Commit:** [`19d1bec`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/19d1bece405d1567063fd0f3e69f393609b8bf5d)
 
 **Checksums:**
 ```
-MD5:    b7e841d909c836e07a949dca42c47bba
-SHA256: a8e306c484d02a049e3289ce2f7ba263960ceb545d687927a9688f5bf9ed28bb
+MD5:    e55015bc69c723c7ccef952eedbb11e1
+SHA256: a9ea5601a44db2b829595f281f98ee0358d7336d1c39939e8418e601ff6bac6e
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3052143` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.3052143/lineuparr-1.26.3052143.zip) | Nov 12 2026, 17:17 UTC | [`19d1bec`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/19d1bece405d1567063fd0f3e69f393609b8bf5d) | e55015bc69c723c7ccef952eedbb11e1 | a9ea5601a44db2b829595f281f98ee0358d7336d1c39939e8418e601ff6bac6e |
 | `1.26.2901915` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.2901915/lineuparr-1.26.2901915.zip) | Oct 28 2026, 13:35 UTC | [`0d24250`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/0d24250ed3d41c58f7901674909f2b88042e892e) | b7e841d909c836e07a949dca42c47bba | a8e306c484d02a049e3289ce2f7ba263960ceb545d687927a9688f5bf9ed28bb |
 
 ---

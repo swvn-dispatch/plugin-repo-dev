@@ -2,7 +2,7 @@
 
 # reservoarr
 
-**Version:** `6.5.0` | **Author:** brko7 | **Last Updated:** Oct 25 2026, 10:13 UTC
+**Version:** `6.8.0` | **Author:** brko7 | **Last Updated:** Nov 08 2026, 02:28 UTC
 
 Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying
 
@@ -14,20 +14,21 @@ Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dyi
 
 ### Latest Release
 
-- **Download:** [`reservoarr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/reservoarr-6.5.0/reservoarr-6.5.0.zip)
-- **Built:** Oct 28 2026, 13:35 UTC
-- **Source Commit:** [`1e7ee8e`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/1e7ee8e75194316b1879059216526e8c96b60070)
+- **Download:** [`reservoarr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/reservoarr-6.8.0/reservoarr-6.8.0.zip)
+- **Built:** Nov 12 2026, 17:17 UTC
+- **Source Commit:** [`523fbc9`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/523fbc98ab92211c19c35f0f20b16f53ece9d6bc)
 
 **Checksums:**
 ```
-MD5:    f20a6ed95d636f12de600a48bb1463f0
-SHA256: 011b3b182975e50a25adbc1c572e245687b0da234d9c5e709f87ec168a8db597
+MD5:    df146465205796e0cbdf00556513a577
+SHA256: fd3cce52f6c3d0d9cd0f4d1071aadc8038260c17693a2640f377c79abd9965c0
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `6.8.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/reservoarr-6.8.0/reservoarr-6.8.0.zip) | Nov 12 2026, 17:17 UTC | [`523fbc9`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/523fbc98ab92211c19c35f0f20b16f53ece9d6bc) | df146465205796e0cbdf00556513a577 | fd3cce52f6c3d0d9cd0f4d1071aadc8038260c17693a2640f377c79abd9965c0 |
 | `6.5.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/reservoarr-6.5.0/reservoarr-6.5.0.zip) | Oct 28 2026, 13:35 UTC | [`1e7ee8e`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/1e7ee8e75194316b1879059216526e8c96b60070) | f20a6ed95d636f12de600a48bb1463f0 | 011b3b182975e50a25adbc1c572e245687b0da234d9c5e709f87ec168a8db597 |
 
 ---

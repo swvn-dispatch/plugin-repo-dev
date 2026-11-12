@@ -2,7 +2,7 @@
 
 # Twitcharr
 
-**Version:** `1.3.2` | **Author:** eliasbruno124-dev | **Last Updated:** Jul 13 2026, 02:54 UTC
+**Version:** `1.3.3` | **Author:** eliasbruno124-dev | **Last Updated:** Nov 03 2026, 19:44 UTC
 
 Twitch live-TV plugin for Dispatcharr with automatic channels, streams, XMLTV guide data and Streamlink playback.
 
@@ -12,20 +12,21 @@ Twitch live-TV plugin for Dispatcharr with automatic channels, streams, XMLTV gu
 
 ### Latest Release
 
-- **Download:** [`twitcharr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/twitcharr-1.3.2/twitcharr-1.3.2.zip)
-- **Built:** Oct 28 2026, 13:36 UTC
-- **Source Commit:** [`2d65eb1`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2d65eb13b1ad72210ca517520c9d0608d2dc342b)
+- **Download:** [`twitcharr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/twitcharr-1.3.3/twitcharr-1.3.3.zip)
+- **Built:** Nov 12 2026, 17:17 UTC
+- **Source Commit:** [`dd6e1fa`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/dd6e1fa8b36604c630c2b6afdd6cd349283002ec)
 
 **Checksums:**
 ```
-MD5:    17f1938563ab3f718ce3248fe1d6f98e
-SHA256: 25a6d12b33e6001973aa115449f0483a55594cc2a0adb1c39322cdfe1f7df3aa
+MD5:    8c3d32792c0e03a60bb89f1af79f0367
+SHA256: f3e1074dc88bd077abc088fb588fa8523c9064fdc6651512baea91683f52753a
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.3.3` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/twitcharr-1.3.3/twitcharr-1.3.3.zip) | Nov 12 2026, 17:17 UTC | [`dd6e1fa`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/dd6e1fa8b36604c630c2b6afdd6cd349283002ec) | 8c3d32792c0e03a60bb89f1af79f0367 | f3e1074dc88bd077abc088fb588fa8523c9064fdc6651512baea91683f52753a |
 | `1.3.2` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/twitcharr-1.3.2/twitcharr-1.3.2.zip) | Oct 28 2026, 13:36 UTC | [`2d65eb1`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2d65eb13b1ad72210ca517520c9d0608d2dc342b) | 17f1938563ab3f718ce3248fe1d6f98e | 25a6d12b33e6001973aa115449f0483a55594cc2a0adb1c39322cdfe1f7df3aa |
 
 ---

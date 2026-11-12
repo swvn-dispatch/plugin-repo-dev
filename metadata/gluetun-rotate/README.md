@@ -2,7 +2,7 @@
 
 # Gluetun Rotate
 
-**Version:** `0.4.0` | **Author:** PilaScat | **Last Updated:** Oct 07 2026, 00:03 UTC
+**Version:** `0.5.2` | **Author:** PilaScat | **Last Updated:** Nov 09 2026, 13:06 UTC
 
 Moves Gluetun to another VPN server when the IPTV provider refuses the current exit address.
 
@@ -12,20 +12,21 @@ Moves Gluetun to another VPN server when the IPTV provider refuses the current e
 
 ### Latest Release
 
-- **Download:** [`gluetun-rotate-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/gluetun-rotate-0.4.0/gluetun-rotate-0.4.0.zip)
-- **Built:** Oct 28 2026, 13:34 UTC
-- **Source Commit:** [`4b4e9db`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/4b4e9db4f79245acaabfe246307e04da5de5dd57)
+- **Download:** [`gluetun-rotate-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/gluetun-rotate-0.5.2/gluetun-rotate-0.5.2.zip)
+- **Built:** Nov 12 2026, 17:17 UTC
+- **Source Commit:** [`8b44e7e`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/8b44e7ecbb56d5d0a5385079b3f709574dddbca2)
 
 **Checksums:**
 ```
-MD5:    83695e9fe933b7db232b53ccf02afdef
-SHA256: cf566a498f1be72ce5fff1e5a92871c9946e9b9895d97b4d43e94576444bf322
+MD5:    ecccd1eea5e94bf4229c1f702ad331a3
+SHA256: e81fca8da03d66d61db70e82daa7a53325244522cd438732039e26921395e7ef
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `0.5.2` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/gluetun-rotate-0.5.2/gluetun-rotate-0.5.2.zip) | Nov 12 2026, 17:17 UTC | [`8b44e7e`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/8b44e7ecbb56d5d0a5385079b3f709574dddbca2) | ecccd1eea5e94bf4229c1f702ad331a3 | e81fca8da03d66d61db70e82daa7a53325244522cd438732039e26921395e7ef |
 | `0.4.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/gluetun-rotate-0.4.0/gluetun-rotate-0.4.0.zip) | Oct 28 2026, 13:34 UTC | [`4b4e9db`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/4b4e9db4f79245acaabfe246307e04da5de5dd57) | 83695e9fe933b7db232b53ccf02afdef | cf566a498f1be72ce5fff1e5a92871c9946e9b9895d97b4d43e94576444bf322 |
 
 ---
@@ -86,6 +87,7 @@ both keys, press **Apply**, and press **Ask** to see what the provider answers r
 | API key | A Dispatcharr API key of an **admin** user, from Settings → Users. The watcher reads the provider accounts with it, and Dispatcharr leaves the account password out for anyone else, so those accounts would be skipped as unusable |
 | Gluetun key | The `apikey` of the role above |
 | Gluetun URL | Gluetun's control server as Dispatcharr sees it. The default fits a shared network namespace |
+| Count a reset connection as a refusal | Off by default. On, a `player_api.php` that resets or refuses the connection counts as a refused round, like a 520. For a provider that is not behind Cloudflare and blocks an exit address that way |
 
 ## Actions
 
@@ -119,6 +121,13 @@ without waiting for a second round. The source is asked again every round, at mo
 sources a round, until it opens (`unblocked`); if it is still blocked after a rotation, the
 next round rotates again within the limits below. Any other 403 is only recorded.
 
+**A reset connection can count as a refusal** (opt-in). A provider that is not behind
+Cloudflare never answers 520, and some refuse an exit address by resetting the TCP connection
+instead, while another address is served as usual. With **Count a reset connection as a
+refusal** on, a `player_api.php` probe that is reset or refused counts as a refused round, and
+the same two rounds in a row, cooldown, hourly limit and wait for viewers apply. It is off by
+default, because a reset can also be a provider failing for everyone.
+
 Gluetun picks a server at random among those its filters allow each time the tunnel
 starts, which is what makes this work. A filter narrowed to one server leaves nowhere to go.
 
@@ -145,7 +154,8 @@ it again. A tunnel stopped by hand is left alone.
 A provider that is failing on its own. A 403, 507 or 509 means the provider is answering
 and saying no, to everyone; a new address would not change that, so those answers never
 trigger a rotation. Neither does a timeout: a tunnel that is down is Gluetun's own
-healthcheck to restart.
+healthcheck to restart. A reset or refused connection rotates only when you turn it on, and
+then a provider that resets everyone is rotated against too, up to the hourly limit.
 
 A 403 from an edge that is not Cloudflare's block page. From Dispatcharr 0.31.0, which writes
 its log to `/data/logs/dispatcharr.log`, the watcher counts the `HTTP 403` lines there every

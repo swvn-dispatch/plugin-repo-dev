@@ -2,7 +2,7 @@
 
 # Stream-Mapparr
 
-**Version:** `1.26.2981400` | **Author:** PiratesIRC | **Last Updated:** Oct 25 2026, 14:09 UTC
+**Version:** `1.26.3052124` | **Author:** PiratesIRC | **Last Updated:** Nov 01 2026, 21:37 UTC
 
 Automatically add matching streams to channels based on name similarity and quality precedence. Supports unlimited stream matching, channel visibility management, and CSV export cleanup.
 
@@ -14,20 +14,21 @@ Automatically add matching streams to channels based on name similarity and qual
 
 ### Latest Release
 
-- **Download:** [`stream-mapparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.2981400/stream-mapparr-1.26.2981400.zip)
-- **Built:** Oct 28 2026, 13:35 UTC
-- **Source Commit:** [`878c8e0`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/878c8e0ff3413d753294702c23d245e6e106b83d)
+- **Download:** [`stream-mapparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.3052124/stream-mapparr-1.26.3052124.zip)
+- **Built:** Nov 12 2026, 17:17 UTC
+- **Source Commit:** [`2bfc663`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2bfc66325972f34a8194440859fb3bcb28bbe634)
 
 **Checksums:**
 ```
-MD5:    9a6bee09934b90dc16f00442121dea57
-SHA256: 0f39d7c1fc820c6a16e34e59091f092a4d8032eed0fcb1ffe07aa4ae5834cd7e
+MD5:    ac97f20d0188c39426f1ad346af738c4
+SHA256: f1b01dd40b5e3726cd8e142ba1f617c799efbb26859d7aa1777e1981db8d7414
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3052124` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.3052124/stream-mapparr-1.26.3052124.zip) | Nov 12 2026, 17:17 UTC | [`2bfc663`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2bfc66325972f34a8194440859fb3bcb28bbe634) | ac97f20d0188c39426f1ad346af738c4 | f1b01dd40b5e3726cd8e142ba1f617c799efbb26859d7aa1777e1981db8d7414 |
 | `1.26.2981400` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.2981400/stream-mapparr-1.26.2981400.zip) | Oct 28 2026, 13:35 UTC | [`878c8e0`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/878c8e0ff3413d753294702c23d245e6e106b83d) | 9a6bee09934b90dc16f00442121dea57 | 0f39d7c1fc820c6a16e34e59091f092a4d8032eed0fcb1ffe07aa4ae5834cd7e |
 
 ---
@@ -154,6 +155,9 @@ database. This plugin modifies channel and stream assignments.
 - **Audio priority sorting** (opt-in): rank by audio channel layout and codec,
   using two comma-separated preference lists. Applied after the video tier, with
   layout ranked before codec
+- **Bitrate tie-breaker**: when two streams match on resolution, frame rate and
+  audio, the one with the higher measured video bitrate goes first, rounded to
+  the Bitrate Sort Step so small swings do not reorder them
 - **M3U source prioritization**: prefer streams from specific providers
 - **Dead stream filtering**: skip streams with 0x0 resolution
 - **Auto-deduplication**: collapse duplicate stream names during assignment
@@ -201,6 +205,7 @@ the operation lock prevents concurrent runs and auto-expires after 10 minutes.
 | Setting | Type | Default | Description |
 |:---|:---|:---|:---|
 | **Overwrite Existing Streams** | boolean | True | Replace existing streams rather than appending. A run matching 0 streams never clears a channel |
+| **Keep Custom Streams Last** | boolean | True | Custom streams already on a channel (created in Dispatcharr, not from an M3U source, such as the fallback stream Could Not Dispatch adds) are kept when Overwrite replaces the list, and Sort keeps them after the provider streams. Off: Overwrite removes them like any other stream |
 | **Match Sensitivity** | select | Normal (80) | Relaxed (70), Normal (80), Strict (90), Exact (95) |
 | **Channel Profile** | select | - | Profile to process channels from |
 | **Channel Groups** | string | (all) | Groups to process, comma-separated. Empty means all groups |
@@ -246,6 +251,7 @@ the operation lock prevents concurrent runs and auto-expires after 10 minutes.
 | **Placeholder Bitrate Floor (kbps)** | number | 300 | The floor for the setting above. Standard definition is never checked. Where two bitrate figures disagree the higher is used, so a disagreement keeps the stream |
 | **Audio Channels Priority** | string | "" | Audio layouts, most preferred first, for example `7.1, 5.1, stereo`. Ranked before codec. Blank disables it |
 | **Audio Codec Priority** | string | "" | Audio codecs, most preferred first, for example `eac3, ac3, aac`. Ranked after layout. Blank disables it |
+| **Bitrate Sort Step (kbps)** | number | 500 | When streams match on resolution, frame rate and audio, the higher measured video bitrate is placed first. Bitrates are rounded down to this step before comparing, so streams within one step keep their order. A stream with no measured bitrate goes after one that has one. 0 turns it off |
 | **Share anonymous usage counts** | boolean | True | Sends this plugin's Streams Matched total and a random id to the plugin author's counter. See [Anonymous usage counts](#anonymous-usage-counts). |
 
 ## Actions

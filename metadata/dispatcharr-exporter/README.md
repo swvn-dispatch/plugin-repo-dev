@@ -2,7 +2,7 @@
 
 # Dispatcharr Exporter
 
-**Version:** `3.1.0` | **Author:** sethwv | **Last Updated:** Jul 18 2026, 17:29 UTC
+**Version:** `3.2.0` | **Author:** sethwv | **Last Updated:** Nov 04 2026, 18:19 UTC
 
 Expose Dispatcharr metrics in Prometheus exporter-compatible format for monitoring
 
@@ -14,22 +14,22 @@ Expose Dispatcharr metrics in Prometheus exporter-compatible format for monitori
 
 ### Latest Release
 
-- **Download:** [`dispatcharr-exporter-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dispatcharr-exporter-3.1.0/dispatcharr-exporter-3.1.0.zip)
-- **Built:** Oct 28 2026, 13:34 UTC
-- **Source Commit:** [`ddffa49`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ddffa49420c5dd513a9a7876998a72ce295e2242)
+- **Download:** [`dispatcharr-exporter-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dispatcharr-exporter-3.2.0/dispatcharr-exporter-3.2.0.zip)
+- **Built:** Nov 12 2026, 17:17 UTC
+- **Source Commit:** [`19d0128`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/19d012811abedc11d1b81fadf135432de7dfa943)
 
 **Checksums:**
 ```
-MD5:    d9d81b71a5774ec54e4e5d1a6bbb3cb9
-SHA256: 2e1f102d32fd92ff6760daf81f9fb49da3d4233d985f58ba6ba53b07e4b3f93b
+MD5:    1668db6474d6df958bef81d101481faf
+SHA256: bd47c6029d109a1b745cfa56cb8c3c5aa20e0375c060fdeee589c827b174e4db
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `3.2.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dispatcharr-exporter-3.2.0/dispatcharr-exporter-3.2.0.zip) | Nov 12 2026, 17:17 UTC | [`19d0128`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/19d012811abedc11d1b81fadf135432de7dfa943) | 1668db6474d6df958bef81d101481faf | bd47c6029d109a1b745cfa56cb8c3c5aa20e0375c060fdeee589c827b174e4db |
 | `3.1.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dispatcharr-exporter-3.1.0/dispatcharr-exporter-3.1.0.zip) | Oct 28 2026, 13:34 UTC | [`ddffa49`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ddffa49420c5dd513a9a7876998a72ce295e2242) | d9d81b71a5774ec54e4e5d1a6bbb3cb9 | 2e1f102d32fd92ff6760daf81f9fb49da3d4233d985f58ba6ba53b07e4b3f93b |
-| `3.1.0-dev-3b0097e4` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dispatcharr-exporter-3.1.0-dev-3b0097e4/dispatcharr-exporter-3.1.0-dev-3b0097e4.zip) | Oct 28 2026, 20:48 UTC | [`21844bb`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/21844bbdf912cf7a31e04c6c5c2dabf7eafd9507) | 60ba2a25ff6a4015d1d83d4fac8ec9eb | 68d6ddc6eaeb4c3dac868f50c72e80a5e952dccb804e699265ed2789c688729d |
 
 ---
 
