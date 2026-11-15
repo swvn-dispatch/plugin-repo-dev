@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "event-channel-managarr",
     "name": "Event Channel Managarr",
@@ -15,7 +15,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-07T15:21:00Z",
-    "download_count": 0,
+    "download_count": 2,
     "latest": {
       "version": "1.26.3111512",
       "commit_sha": "d30b729cf1384a97d9ab49af175bd8dbf5cc6cd6",
@@ -31,7 +31,7 @@
       "latest_url": "event-channel-managarr-1.26.3111512/event-channel-managarr-1.26.3111512.zip",
       "url": "event-channel-managarr-1.26.3111512/event-channel-managarr-1.26.3111512.zip",
       "size": 260,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -47,7 +47,7 @@
         "source_url": "https://github.com/PiratesIRC/Dispatcharr-Event-Channel-Managarr-Plugin/releases/download/v1.26.3111512/Event-Channel-Managarr.zip",
         "url": "event-channel-managarr-1.26.3111512/event-channel-managarr-1.26.3111512.zip",
         "size": 260,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "1.26.2981641",
@@ -62,7 +62,7 @@
         "source_url": "https://github.com/PiratesIRC/Dispatcharr-Event-Channel-Managarr-Plugin/releases/download/v1.26.2981641/Event-Channel-Managarr.zip",
         "url": "event-channel-managarr-1.26.2981641/event-channel-managarr-1.26.2981641.zip",
         "size": 260,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

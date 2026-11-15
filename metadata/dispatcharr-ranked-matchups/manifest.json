@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "dispatcharr-ranked-matchups",
     "name": "Ranked Matchups (Top Games)",
@@ -13,7 +13,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-09T02:43:12Z",
-    "download_count": 0,
+    "download_count": 2,
     "latest": {
       "version": "1.36.2",
       "commit_sha": "870368f0fa566fb3fe87a2ee96903ad379e6b3b1",
@@ -29,7 +29,7 @@
       "latest_url": "dispatcharr-ranked-matchups-1.36.2/dispatcharr-ranked-matchups-1.36.2.zip",
       "url": "dispatcharr-ranked-matchups-1.36.2/dispatcharr-ranked-matchups-1.36.2.zip",
       "size": 809,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -44,7 +44,7 @@
         "source_url": "https://github.com/Jacob-Lasky/dispatcharr_ranked_matchups/releases/download/v1.36.2/dispatcharr_ranked_matchups-v1.36.2.zip",
         "url": "dispatcharr-ranked-matchups-1.36.2/dispatcharr-ranked-matchups-1.36.2.zip",
         "size": 809,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "1.36.0",
@@ -58,7 +58,7 @@
         "source_url": "https://github.com/Jacob-Lasky/dispatcharr_ranked_matchups/releases/download/v1.36.0/plugin.zip",
         "url": "dispatcharr-ranked-matchups-1.36.0/dispatcharr-ranked-matchups-1.36.0.zip",
         "size": 787,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

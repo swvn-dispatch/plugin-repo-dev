@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:36:32Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "epg-janitor",
     "name": "EPG Janitor",
@@ -16,7 +16,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-10-24T16:03:38Z",
-    "download_count": 0,
+    "download_count": 1,
     "latest": {
       "version": "1.26.2971931",
       "commit_sha": "a936019d4a6d242aa44ea677a0f9591c776b738f",
@@ -32,7 +32,7 @@
       "latest_url": "epg-janitor-1.26.2971931/epg-janitor-1.26.2971931.zip",
       "url": "epg-janitor-1.26.2971931/epg-janitor-1.26.2971931.zip",
       "size": 476,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -48,7 +48,7 @@
         "source_url": "https://github.com/PiratesIRC/Dispatcharr-EPG-Janitor-Plugin/releases/download/1.26.2971931/EPG-Janitor.zip",
         "url": "epg-janitor-1.26.2971931/epg-janitor-1.26.2971931.zip",
         "size": 476,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

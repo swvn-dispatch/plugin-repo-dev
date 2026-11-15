@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "stream-mapparr",
     "name": "Stream-Mapparr",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-01T21:37:32Z",
-    "download_count": 0,
+    "download_count": 2,
     "latest": {
       "version": "1.26.3052124",
       "commit_sha": "2bfc66325972f34a8194440859fb3bcb28bbe634",
@@ -28,7 +28,7 @@
       "latest_url": "stream-mapparr-1.26.3052124/stream-mapparr-1.26.3052124.zip",
       "url": "stream-mapparr-1.26.3052124/stream-mapparr-1.26.3052124.zip",
       "size": 610,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -44,7 +44,7 @@
         "source_url": "https://github.com/PiratesIRC/Stream-Mapparr/releases/download/1.26.3052124/Stream-Mapparr.zip",
         "url": "stream-mapparr-1.26.3052124/stream-mapparr-1.26.3052124.zip",
         "size": 610,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "1.26.2981400",
@@ -59,7 +59,7 @@
         "source_url": "https://github.com/PiratesIRC/Stream-Mapparr/releases/download/1.26.2981400/Stream-Mapparr.zip",
         "url": "stream-mapparr-1.26.2981400/stream-mapparr-1.26.2981400.zip",
         "size": 607,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

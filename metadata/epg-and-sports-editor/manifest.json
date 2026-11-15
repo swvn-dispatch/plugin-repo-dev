@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "epg-and-sports-editor",
     "name": "EPG & Sports Editor",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-07T01:30:09Z",
-    "download_count": 1,
+    "download_count": 4,
     "latest": {
       "version": "0.5.21",
       "commit_sha": "012d7970a89a8e3db1fcf15b1e5bdd4afb60ea96",
@@ -28,7 +28,7 @@
       "latest_url": "epg-and-sports-editor-0.5.21/epg-and-sports-editor-0.5.21.zip",
       "url": "epg-and-sports-editor-0.5.21/epg-and-sports-editor-0.5.21.zip",
       "size": 182,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -43,7 +43,7 @@
         "source_url": "https://github.com/jstevenscl/epg-and-sports-editor/releases/download/v0.5.21/epg-and-sports-editor-v0.5.21.zip",
         "url": "epg-and-sports-editor-0.5.21/epg-and-sports-editor-0.5.21.zip",
         "size": 182,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "0.5.14",
@@ -57,7 +57,7 @@
         "source_url": "https://github.com/jstevenscl/epg-and-sports-editor/releases/download/v0.5.14/epg-and-sports-editor-v0.5.14.zip",
         "url": "epg-and-sports-editor-0.5.14/epg-and-sports-editor-0.5.14.zip",
         "size": 174,
-        "download_count": 1
+        "download_count": 2
       },
       {
         "version": "0.5.13",
@@ -71,7 +71,7 @@
         "source_url": "https://github.com/jstevenscl/epg-and-sports-editor/releases/download/v0.5.13/epg-and-sports-editor-v0.5.13.zip",
         "url": "epg-and-sports-editor-0.5.13/epg-and-sports-editor-0.5.13.zip",
         "size": 172,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

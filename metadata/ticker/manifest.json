@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:36:32Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "ticker",
     "name": "Ticker",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-10-22T23:29:00Z",
-    "download_count": 0,
+    "download_count": 1,
     "latest": {
       "version": "0.5.05",
       "commit_sha": "7685d8a0bc36087296f3ceff2e766e83fea5f6e6",
@@ -28,7 +28,7 @@
       "latest_url": "ticker-0.5.05/ticker-0.5.05.zip",
       "url": "ticker-0.5.05/ticker-0.5.05.zip",
       "size": 2142,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -43,7 +43,7 @@
         "source_url": "https://github.com/jstevenscl/ticker/releases/download/v0.5.05/ticker-0.5.05.zip",
         "url": "ticker-0.5.05/ticker-0.5.05.zip",
         "size": 2142,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

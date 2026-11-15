@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "aeriotv-presets",
     "name": "AerioTV Presets",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-09T16:15:22-05:00",
-    "download_count": 0,
+    "download_count": 1,
     "latest": {
       "version": "0.0.7",
       "commit_sha": "87c45efdc70a7dad3de92882de8afaf876b4cf5b",
@@ -28,7 +28,7 @@
       "latest_url": "aeriotv-presets-0.0.7/aeriotv-presets-0.0.7.zip",
       "url": "aeriotv-presets-0.0.7/aeriotv-presets-0.0.7.zip",
       "size": 69,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -44,7 +44,7 @@
         "source_url": "https://github.com/jonzey231/AerioTVPresets/releases/download/v0.0.7/aeriotv-presets-plugin-0.0.7.zip",
         "url": "aeriotv-presets-0.0.7/aeriotv-presets-0.0.7.zip",
         "size": 69,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

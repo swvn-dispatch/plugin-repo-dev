@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "gluetun-rotate",
     "name": "Gluetun Rotate",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-09T13:06:19Z",
-    "download_count": 0,
+    "download_count": 2,
     "latest": {
       "version": "0.5.2",
       "commit_sha": "8b44e7ecbb56d5d0a5385079b3f709574dddbca2",
@@ -28,7 +28,7 @@
       "latest_url": "gluetun-rotate-0.5.2/gluetun-rotate-0.5.2.zip",
       "url": "gluetun-rotate-0.5.2/gluetun-rotate-0.5.2.zip",
       "size": 58,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -43,7 +43,7 @@
         "source_url": "https://github.com/PilaScat/gluetun-rotate/releases/download/v0.5.2/gluetun-rotate-0.5.2.zip",
         "url": "gluetun-rotate-0.5.2/gluetun-rotate-0.5.2.zip",
         "size": 58,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "0.4.0",
@@ -57,7 +57,7 @@
         "source_url": "https://github.com/PilaScat/gluetun-rotate/releases/download/v0.4.0/gluetun-rotate-0.4.0.zip",
         "url": "gluetun-rotate-0.4.0/gluetun-rotate-0.4.0.zip",
         "size": 56,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

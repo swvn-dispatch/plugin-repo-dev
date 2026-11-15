@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "reservoarr",
     "name": "reservoarr",
@@ -15,7 +15,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-08T02:28:52Z",
-    "download_count": 0,
+    "download_count": 2,
     "latest": {
       "version": "6.8.0",
       "commit_sha": "523fbc98ab92211c19c35f0f20b16f53ece9d6bc",
@@ -31,7 +31,7 @@
       "latest_url": "reservoarr-6.8.0/reservoarr-6.8.0.zip",
       "url": "reservoarr-6.8.0/reservoarr-6.8.0.zip",
       "size": 53,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -47,7 +47,7 @@
         "source_url": "https://github.com/brko7/reservoarr/releases/download/v6.8.0/reservoarr-6.8.0.zip",
         "url": "reservoarr-6.8.0/reservoarr-6.8.0.zip",
         "size": 53,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "6.5.0",
@@ -62,7 +62,7 @@
         "source_url": "https://github.com/brko7/reservoarr/releases/download/v6.5.0/reservoarr-6.5.0.zip",
         "url": "reservoarr-6.5.0/reservoarr-6.5.0.zip",
         "size": 48,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

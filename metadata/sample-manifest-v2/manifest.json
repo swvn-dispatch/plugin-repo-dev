@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:36:32Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "sample-manifest-v2",
     "name": "Manifest v2 Example",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-10-26T10:14:10-04:00",
-    "download_count": 0,
+    "download_count": 1,
     "latest": {
       "version": "1.0.0",
       "commit_sha": "bb72d0dde8e796f88a562813f3fb580fa878ce85",
@@ -27,7 +27,7 @@
       "latest_url": "sample-manifest-v2-1.0.0/sample-manifest-v2-1.0.0.zip",
       "url": "sample-manifest-v2-1.0.0/sample-manifest-v2-1.0.0.zip",
       "size": 1,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -42,7 +42,7 @@
         "min_dispatcharr_version": "v0.34.0",
         "url": "sample-manifest-v2-1.0.0/sample-manifest-v2-1.0.0.zip",
         "size": 1,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

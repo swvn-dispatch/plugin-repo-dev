@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "dispatcharr-exporter",
     "name": "Dispatcharr Exporter",
@@ -13,7 +13,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-04T18:19:16Z",
-    "download_count": 1,
+    "download_count": 3,
     "latest": {
       "version": "3.2.0",
       "commit_sha": "19d012811abedc11d1b81fadf135432de7dfa943",
@@ -29,7 +29,7 @@
       "latest_url": "dispatcharr-exporter-3.2.0/dispatcharr-exporter-3.2.0.zip",
       "url": "dispatcharr-exporter-3.2.0/dispatcharr-exporter-3.2.0.zip",
       "size": 156,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -45,7 +45,7 @@
         "source_url": "https://github.com/swvn-dispatch/dispatcharr-exporter/releases/download/v3.2.0/dispatcharr-exporter-3.2.0.zip",
         "url": "dispatcharr-exporter-3.2.0/dispatcharr-exporter-3.2.0.zip",
         "size": 156,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "3.1.0",
@@ -59,7 +59,7 @@
         "min_dispatcharr_version": "v0.22.0",
         "url": "dispatcharr-exporter-3.1.0/dispatcharr-exporter-3.1.0.zip",
         "size": 143,
-        "download_count": 1
+        "download_count": 2
       }
     ]
   }

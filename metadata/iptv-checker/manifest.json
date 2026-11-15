@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "iptv-checker",
     "name": "IPTV Checker",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-08T13:17:51Z",
-    "download_count": 0,
+    "download_count": 2,
     "latest": {
       "version": "1.26.3121307",
       "commit_sha": "d28367c11c81c1972e20db28f0aa9ec371f00945",
@@ -28,7 +28,7 @@
       "latest_url": "iptv-checker-1.26.3121307/iptv-checker-1.26.3121307.zip",
       "url": "iptv-checker-1.26.3121307/iptv-checker-1.26.3121307.zip",
       "size": 415,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -44,7 +44,7 @@
         "source_url": "https://github.com/PiratesIRC/Dispatcharr-IPTV-Checker-Plugin/releases/download/v1.26.3121307/iptv_checker-v1.26.3121307.zip",
         "url": "iptv-checker-1.26.3121307/iptv-checker-1.26.3121307.zip",
         "size": 415,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "1.26.2901902",
@@ -59,7 +59,7 @@
         "source_url": "https://github.com/PiratesIRC/Dispatcharr-IPTV-Checker-Plugin/releases/download/v1.26.2901902/iptv_checker-v1.26.2901902.zip",
         "url": "iptv-checker-1.26.2901902/iptv-checker-1.26.2901902.zip",
         "size": 414,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

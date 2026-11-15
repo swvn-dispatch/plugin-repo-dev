@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:36:32Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "channel-name-cleaner",
     "name": "Channel Name Cleaner",
@@ -15,7 +15,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-10-25T19:26:53-04:00",
-    "download_count": 0,
+    "download_count": 1,
     "latest": {
       "version": "0.2.0",
       "commit_sha": "e59d4dc67585aa93c278f17bb7307f8cdd539dc8",
@@ -31,7 +31,7 @@
       "latest_url": "channel-name-cleaner-0.2.0/channel-name-cleaner-0.2.0.zip",
       "url": "channel-name-cleaner-0.2.0/channel-name-cleaner-0.2.0.zip",
       "size": 10,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -47,7 +47,7 @@
         "source_url": "https://github.com/noodlemctwoodle/dispatcharr-channel-name-cleaner/releases/download/v0.2.0/channel-name-cleaner.zip",
         "url": "channel-name-cleaner-0.2.0/channel-name-cleaner-0.2.0.zip",
         "size": 10,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }

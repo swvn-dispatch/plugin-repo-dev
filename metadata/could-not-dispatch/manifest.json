@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T17:18:14Z",
+  "generated_at": "2026-11-15T05:14:00Z",
   "manifest": {
     "slug": "could-not-dispatch",
     "name": "Could Not Dispatch",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-09T13:27:55Z",
-    "download_count": 0,
+    "download_count": 2,
     "latest": {
       "version": "0.7.5",
       "commit_sha": "ae0d9547db04897d15f60bb617932f892d02b718",
@@ -28,7 +28,7 @@
       "latest_url": "could-not-dispatch-0.7.5/could-not-dispatch-0.7.5.zip",
       "url": "could-not-dispatch-0.7.5/could-not-dispatch-0.7.5.zip",
       "size": 70,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -43,7 +43,7 @@
         "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v0.7.5/could-not-dispatch-0.7.5.zip",
         "url": "could-not-dispatch-0.7.5/could-not-dispatch-0.7.5.zip",
         "size": 70,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "0.6.0",
@@ -57,7 +57,7 @@
         "source_url": "https://github.com/PilaScat/could-not-dispatch/releases/download/v0.6.0/could-not-dispatch-0.6.0.zip",
         "url": "could-not-dispatch-0.6.0/could-not-dispatch-0.6.0.zip",
         "size": 65,
-        "download_count": 0
+        "download_count": 1
       }
     ]
   }
