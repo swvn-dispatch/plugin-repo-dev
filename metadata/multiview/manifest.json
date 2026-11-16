@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T05:14:00Z",
+  "generated_at": "2026-11-16T19:46:08Z",
   "manifest": {
     "slug": "multiview",
     "name": "Multiview",
@@ -60,6 +60,22 @@
         "url": "multiview-0.5.0/multiview-0.5.0.zip",
         "size": 377,
         "download_count": 1
+      },
+      {
+        "version": "0.6.0-dev-53131bc6",
+        "prerelease": true,
+        "commit_sha": "e14fd827d8f72cf6036fe49d2d2698552968a472",
+        "commit_sha_short": "e14fd82",
+        "changelog": "561",
+        "build_timestamp": "2026-11-16T19:45:57Z",
+        "last_updated": "2026-11-16T19:45:04Z",
+        "checksum_md5": "74fb64cf4fbbf31badf2b735ee4ede90",
+        "checksum_sha256": "a7864ba1cc532d40164e25e1e607fc31a362669ebd3663ee3511381f3eeb6afe",
+        "min_dispatcharr_version": "v0.27.0",
+        "source_url": "https://github.com/swvn-dispatch/dispatcharr-multiview/releases/download/v0.6.0-dev-53131bc6/multiview-0.6.0-dev-53131bc6.zip",
+        "url": "multiview-0.6.0-dev-53131bc6/multiview-0.6.0-dev-53131bc6.zip",
+        "size": 383,
+        "download_count": 0
       }
     ]
   }

@@ -30,6 +30,7 @@ SHA256: 1be4fe1d79beae25c5d5d4f5c1b18c354ab045e82cdd6a87f6b713af46e600ff
 |---------|----------|-------|--------|-----|--------|
 | `0.6.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.6.0/multiview-0.6.0.zip) | Nov 12 2026, 17:17 UTC | [`2e6aa54`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2e6aa54628f6581c86791d1b7dc0bacbad59e7b3) | 63c20bf003dee34a04d9ceba006bb3b1 | 1be4fe1d79beae25c5d5d4f5c1b18c354ab045e82cdd6a87f6b713af46e600ff |
 | `0.5.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.5.0/multiview-0.5.0.zip) | Oct 28 2026, 13:35 UTC | [`db79a9f`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/db79a9f0d2accf70c4fc923bbdf5a6ef734427bb) | fd94aa4f77330852a820cc0bab410513 | cb76b131c835112b3878fc0817bb0fb3da314bcf5d4106eeae5e9b3331e649bc |
+| `0.6.0-dev-53131bc6` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/multiview-0.6.0-dev-53131bc6/multiview-0.6.0-dev-53131bc6.zip) | Nov 16 2026, 19:45 UTC | [`e14fd82`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/e14fd827d8f72cf6036fe49d2d2698552968a472) | 74fb64cf4fbbf31badf2b735ee4ede90 | a7864ba1cc532d40164e25e1e607fc31a362669ebd3663ee3511381f3eeb6afe |
 
 ---
 
