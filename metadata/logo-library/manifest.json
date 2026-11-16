@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-11-16T16:34:15Z",
+  "manifest": {
+    "slug": "logo-library",
+    "name": "Logo Library",
+    "description": "Assign channel logos from a catalog (like the tv-logo/tv-logos repo) using manual mappings or group-based automatic matching.",
+    "author": "sethwv",
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/swvn-dispatch/logo-library/releases/download/v{version}/logo-library-{version}.zip",
+    "repo_url": "https://github.com/swvn-dispatch/logo-library",
+    "discord_thread": "https://discord.com/channels/1340492560220684331/1570480168391282718",
+    "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
+    "registry_name": "swvn-dispatch/plugin-repo-dev",
+    "last_updated": "2026-11-14T16:59:45Z",
+    "download_count": 0,
+    "latest": {
+      "version": "0.1.2",
+      "commit_sha": "4ceea55c082335f9eb8e4d8b90eb58cfc7e24f54",
+      "commit_sha_short": "4ceea55",
+      "changelog": "554",
+      "build_timestamp": "2026-11-16T16:33:59Z",
+      "last_updated": "2026-11-14T16:59:45Z",
+      "checksum_md5": "9fc1380c91fe7ae3a1bf6d03243c2014",
+      "checksum_sha256": "f2c044e88b11acd871a2ea939294ed8585e39e4a19baaec3c96085266be9c60a",
+      "min_dispatcharr_version": "v0.34.0",
+      "max_dispatcharr_version": "",
+      "source_url": "https://github.com/swvn-dispatch/logo-library/releases/download/v0.1.2/logo-library-0.1.2.zip",
+      "latest_url": "logo-library-0.1.2/logo-library-0.1.2.zip",
+      "url": "logo-library-0.1.2/logo-library-0.1.2.zip",
+      "size": 67,
+      "download_count": 0
+    },
+    "versions": [
+      {
+        "version": "0.1.2",
+        "commit_sha": "4ceea55c082335f9eb8e4d8b90eb58cfc7e24f54",
+        "commit_sha_short": "4ceea55",
+        "changelog": "554",
+        "build_timestamp": "2026-11-16T16:33:59Z",
+        "last_updated": "2026-11-14T16:59:45Z",
+        "checksum_md5": "9fc1380c91fe7ae3a1bf6d03243c2014",
+        "checksum_sha256": "f2c044e88b11acd871a2ea939294ed8585e39e4a19baaec3c96085266be9c60a",
+        "min_dispatcharr_version": "v0.34.0",
+        "source_url": "https://github.com/swvn-dispatch/logo-library/releases/download/v0.1.2/logo-library-0.1.2.zip",
+        "url": "logo-library-0.1.2/logo-library-0.1.2.zip",
+        "size": 67,
+        "download_count": 0
+      }
+    ]
+  }
+}
