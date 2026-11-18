@@ -2,7 +2,7 @@
 
 # Audio Buffer Tuner
 
-**Version:** `0.3.5` | **Author:** CtznSniiips | **Last Updated:** Sep 16 2026, 17:11 UTC
+**Version:** `0.4.2` | **Author:** CtznSniiips | **Last Updated:** Nov 17 2026, 17:06 UTC
 
 Speeds up channel startup for low-bitrate (usually audio only) streams by lowering the TS-proxy prebuffer for chosen Channel Groups.
 
@@ -14,22 +14,22 @@ Speeds up channel startup for low-bitrate (usually audio only) streams by loweri
 
 ### Latest Release
 
-- **Download:** [`audio-buffer-tuner-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/audio-buffer-tuner-0.3.5/audio-buffer-tuner-0.3.5.zip)
-- **Built:** Oct 28 2026, 13:34 UTC
-- **Source Commit:** [`3ceeddd`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/3ceeddd53b4d49d5d14584768f69121e8094d6df)
+- **Download:** [`audio-buffer-tuner-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/audio-buffer-tuner-0.4.2/audio-buffer-tuner-0.4.2.zip)
+- **Built:** Nov 18 2026, 23:14 UTC
+- **Source Commit:** [`ad0311f`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ad0311fab4809bffbecf73e442fe4ab800442691)
 
 **Checksums:**
 ```
-MD5:    5cf6208253d8f12c5f0d473211e21728
-SHA256: 18b2f649282b8199290a10654868f194c4a3cf1cf02da86ed9b38e7c5115076e
+MD5:    46b1876f3b6c84c64bc67a94464675d9
+SHA256: 25f0b323dcfad4427eecb258a4156fdce06ba25c888883953b83d2f57894e8e6
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `0.4.2` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/audio-buffer-tuner-0.4.2/audio-buffer-tuner-0.4.2.zip) | Nov 18 2026, 23:14 UTC | [`ad0311f`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ad0311fab4809bffbecf73e442fe4ab800442691) | 46b1876f3b6c84c64bc67a94464675d9 | 25f0b323dcfad4427eecb258a4156fdce06ba25c888883953b83d2f57894e8e6 |
 | `0.3.5` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/audio-buffer-tuner-0.3.5/audio-buffer-tuner-0.3.5.zip) | Oct 28 2026, 13:34 UTC | [`3ceeddd`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/3ceeddd53b4d49d5d14584768f69121e8094d6df) | 5cf6208253d8f12c5f0d473211e21728 | 18b2f649282b8199290a10654868f194c4a3cf1cf02da86ed9b38e7c5115076e |
-| `0.3.5-beta.1` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/audio-buffer-tuner-0.3.5-beta.1/audio-buffer-tuner-0.3.5-beta.1.zip) | Oct 28 2026, 20:47 UTC | [`1e2c810`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/1e2c810e9854c54ef3ceb455ca47b40b7088ed99) | da4b0d67748fbe814899063e1d1b9268 | 1962fcc9b1d48a9106ffb6576cf47d7721776b47527bb9e87fae704becc9d904 |
 
 ---
 

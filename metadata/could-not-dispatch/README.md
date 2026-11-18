@@ -2,7 +2,7 @@
 
 # Could Not Dispatch
 
-**Version:** `0.7.5` | **Author:** PilaScat | **Last Updated:** Nov 09 2026, 13:27 UTC
+**Version:** `0.8.0` | **Author:** PilaScat | **Last Updated:** Nov 17 2026, 19:41 UTC
 
 Plays a looping image or video when every stream on a channel has failed, so viewers see a message instead of an error. It can show a second card when the provider is full, list the channels in use, and send channels back to their stream.
 
@@ -12,20 +12,21 @@ Plays a looping image or video when every stream on a channel has failed, so vie
 
 ### Latest Release
 
-- **Download:** [`could-not-dispatch-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/could-not-dispatch-0.7.5/could-not-dispatch-0.7.5.zip)
-- **Built:** Nov 12 2026, 17:16 UTC
-- **Source Commit:** [`ae0d954`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ae0d9547db04897d15f60bb617932f892d02b718)
+- **Download:** [`could-not-dispatch-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/could-not-dispatch-0.8.0/could-not-dispatch-0.8.0.zip)
+- **Built:** Nov 18 2026, 23:14 UTC
+- **Source Commit:** [`ef58756`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ef58756d8de3605ffaeb134d0e1af0e3c75eb9a6)
 
 **Checksums:**
 ```
-MD5:    e7183971f9f7eb4a8f1560b566a4ff5a
-SHA256: 7d8569a8cf69caeccace92019e3965062b060bef8769aabea06f25e053947b6c
+MD5:    ba3ba719bdafb211dd4dcbd5196b94f7
+SHA256: bf2fad0454e17be56cf88ad8ba54bfde0994344a2fb6d2050f8c1e4d5e5e33ec
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `0.8.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/could-not-dispatch-0.8.0/could-not-dispatch-0.8.0.zip) | Nov 18 2026, 23:14 UTC | [`ef58756`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ef58756d8de3605ffaeb134d0e1af0e3c75eb9a6) | ba3ba719bdafb211dd4dcbd5196b94f7 | bf2fad0454e17be56cf88ad8ba54bfde0994344a2fb6d2050f8c1e4d5e5e33ec |
 | `0.7.5` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/could-not-dispatch-0.7.5/could-not-dispatch-0.7.5.zip) | Nov 12 2026, 17:16 UTC | [`ae0d954`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/ae0d9547db04897d15f60bb617932f892d02b718) | e7183971f9f7eb4a8f1560b566a4ff5a | 7d8569a8cf69caeccace92019e3965062b060bef8769aabea06f25e053947b6c |
 | `0.6.0` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/could-not-dispatch-0.6.0/could-not-dispatch-0.6.0.zip) | Oct 28 2026, 13:34 UTC | [`a137c8a`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/a137c8a20c712352f11477ed6251fdfdbd025bee) | c1834c471dc81cb08f40e710a486af24 | 097a6a6337a556bea054c63608267b3f0d17ec7e3bfea88dbc0088f43de2d89b |
 
@@ -53,12 +54,14 @@ The message is part of your picture. The plugin writes only the channels in use.
 
 ## Requirements
 
-Dispatcharr with the Plugins page, and `ffmpeg` and `ffprobe`, already in its image.
+Dispatcharr 0.34.0 or later (older versions keep 0.7.5), and `ffmpeg` and `ffprobe`, already
+in its image.
 
 ## Install
 
 From the Plugin Hub, or unzip the release into `/data/plugins` and press refresh on the
-Plugins page. Enable the plugin, fill in the settings, press **Apply**.
+Plugins page. Enable the plugin and approve what it asks for, fill in the settings, press
+**Apply**. The card then comes back by itself after a restart or an update.
 
 ## Settings
 
@@ -84,7 +87,6 @@ Plugins page. Enable the plugin, fill in the settings, press **Apply**.
 | Apply settings | Starts the card and adds it, last, to every channel not excluded |
 | Check status | Says whether the card runs and how many channels carry it |
 | Cover new channels | Covers channels that lack it. Runs after every M3U refresh |
-| Restart fallback | Restarts the card if it is down. Runs when a channel starts |
 | Remove fallback | Detaches the card and deletes its streams |
 
 ## What to expect
