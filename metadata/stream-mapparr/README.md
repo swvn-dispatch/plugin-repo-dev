@@ -2,32 +2,33 @@
 
 # Stream-Mapparr
 
-**Version:** `1.26.3052124` | **Author:** PiratesIRC | **Last Updated:** Nov 01 2026, 21:37 UTC
+**Version:** `1.26.3281300` | **Author:** PiratesIRC | **Last Updated:** Nov 24 2026, 13:10 UTC
 
 Automatically add matching streams to channels based on name similarity and quality precedence. Supports unlimited stream matching, channel visibility management, and CSV export cleanup.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PiratesIRC/Stream-Mapparr)
 
-![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.20.0-brightgreen?style=flat-square)
+![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.34.0-brightgreen?style=flat-square)
 
 ## Downloads
 
 ### Latest Release
 
-- **Download:** [`stream-mapparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.3052124/stream-mapparr-1.26.3052124.zip)
-- **Built:** Nov 12 2026, 17:17 UTC
-- **Source Commit:** [`2bfc663`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2bfc66325972f34a8194440859fb3bcb28bbe634)
+- **Download:** [`stream-mapparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.3281300/stream-mapparr-1.26.3281300.zip)
+- **Built:** Nov 26 2026, 14:05 UTC
+- **Source Commit:** [`9b43e62`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/9b43e6226e91fd0d125e22e9c8ca1885f94f38f2)
 
 **Checksums:**
 ```
-MD5:    ac97f20d0188c39426f1ad346af738c4
-SHA256: f1b01dd40b5e3726cd8e142ba1f617c799efbb26859d7aa1777e1981db8d7414
+MD5:    68ffe22b04c5ea191f4a2e15205acfd2
+SHA256: bb4501b86e6be244c01b3d3445366069eec872715e4e0145ead4b8f7814a0d35
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3281300` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.3281300/stream-mapparr-1.26.3281300.zip) | Nov 26 2026, 14:05 UTC | [`9b43e62`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/9b43e6226e91fd0d125e22e9c8ca1885f94f38f2) | 68ffe22b04c5ea191f4a2e15205acfd2 | bb4501b86e6be244c01b3d3445366069eec872715e4e0145ead4b8f7814a0d35 |
 | `1.26.3052124` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.3052124/stream-mapparr-1.26.3052124.zip) | Nov 12 2026, 17:17 UTC | [`2bfc663`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/2bfc66325972f34a8194440859fb3bcb28bbe634) | ac97f20d0188c39426f1ad346af738c4 | f1b01dd40b5e3726cd8e142ba1f617c799efbb26859d7aa1777e1981db8d7414 |
 | `1.26.2981400` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/stream-mapparr-1.26.2981400/stream-mapparr-1.26.2981400.zip) | Oct 28 2026, 13:35 UTC | [`878c8e0`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/878c8e0ff3413d753294702c23d245e6e106b83d) | 9a6bee09934b90dc16f00442121dea57 | 0f39d7c1fc820c6a16e34e59091f092a4d8032eed0fcb1ffe07aa4ae5834cd7e |
 
@@ -157,7 +158,9 @@ database. This plugin modifies channel and stream assignments.
   layout ranked before codec
 - **Bitrate tie-breaker**: when two streams match on resolution, frame rate and
   audio, the one with the higher measured video bitrate goes first, rounded to
-  the Bitrate Sort Step so small swings do not reorder them
+  the Bitrate Sort Step, and two streams change places only when their bitrates
+  differ by more than the Bitrate Sort Tolerance, so small swings do not
+  reorder them
 - **M3U source prioritization**: prefer streams from specific providers
 - **Dead stream filtering**: skip streams with 0x0 resolution
 - **Auto-deduplication**: collapse duplicate stream names during assignment
@@ -177,9 +180,11 @@ database. This plugin modifies channel and stream assignments.
 - **Dry run mode**: preview results with a CSV export and no changes
 - **Emailed reports**: an HTML report and a CSV through Newsflasharr. See
   [Notifications](https://github.com/PiratesIRC/Stream-Mapparr/blob/main/docs/notifications.md)
-- **Live progress**: **View Check Progress** and **View Last Results** report
-  the running operation and the last completed one, backed by on-disk state so
-  they survive a UI reload
+- **Live progress**: on Dispatcharr 0.34 a long action shows a task banner that
+  turns green or red with the real result, and its progress appears in the
+  plugin's Tasks list. **View Status** shows the running operation, or the last
+  completed one, backed by on-disk state so it survives a UI reload; scheduled
+  runs appear there and not in the Tasks list
 
 ## How a run reports back
 
@@ -223,7 +228,7 @@ the operation lock prevents concurrent runs and auto-expires after 10 minutes.
 | **Enable CSV Export** | boolean | True | Write a CSV on a scheduled Match and Assign run. A dry run always writes one |
 | **Delete CSV Exports Older Than (Days)** | number | 0 | Remove this plugin's older reports after each new one is written. 0, the default, keeps everything. Only files this plugin wrote are ever considered, because that directory is shared with other plugins. The newest report and the one just written always survive |
 | **Tag Handling** | select | Strip All | Strip All, Keep Regional, or Keep All |
-| **Channel Database** | select | US | Which channel database to use. You choose this, never your provider's country prefix, so one database per country serves every provider and none needs duplicating |
+| **Channel Database** | select (a pick list on Dispatcharr 0.34, where you can pick several, or leave it empty for every database) | US | Which channel database to use. You choose this, never your provider's country prefix, so one database per country serves every provider and none needs duplicating |
 | **Visible Channel Limit** | number | 1 | Channels per group to enable and assign streams to |
 | **Rate Limiting** | select | None | None, Low, Medium or High |
 | **Filter Dead Streams** | boolean | False | Skip 0x0 resolution streams. Requires IPTV Checker |
@@ -252,6 +257,7 @@ the operation lock prevents concurrent runs and auto-expires after 10 minutes.
 | **Audio Channels Priority** | string | "" | Audio layouts, most preferred first, for example `7.1, 5.1, stereo`. Ranked before codec. Blank disables it |
 | **Audio Codec Priority** | string | "" | Audio codecs, most preferred first, for example `eac3, ac3, aac`. Ranked after layout. Blank disables it |
 | **Bitrate Sort Step (kbps)** | number | 500 | When streams match on resolution, frame rate and audio, the higher measured video bitrate is placed first. Bitrates are rounded down to this step before comparing, so streams within one step keep their order. A stream with no measured bitrate goes after one that has one. 0 turns it off |
+| **Bitrate Sort Tolerance (%)** | number | 20 | Two streams in different bitrate steps change places only when the higher bitrate is more than this percentage above the lower one; otherwise they keep their current order. Stops a small change between IPTV Checker scans from reordering a channel. 0 compares the steps only |
 | **Share anonymous usage counts** | boolean | True | Sends this plugin's Streams Matched total and a random id to the plugin author's counter. See [Anonymous usage counts](#anonymous-usage-counts). |
 
 ## Actions
@@ -268,10 +274,9 @@ the operation lock prevents concurrent runs and auto-expires after 10 minutes.
 | **Match US OTA Only** | Match US broadcast channels by callsign |
 | **Sort Alternate Streams** | Re-sort existing streams by quality, and by throughput tier where probe data exists |
 | **Probe Stream Throughput** | Measure sustained throughput for assigned streams. Run this before Sort Alternate Streams |
-| **Fill Mirror Backups** | For M3U accounts placed in one Dispatcharr server group that carry the same streams from different provider hosts, add to each channel the matching stream, found by provider stream id, from every other active account whose host the channel has no stream from yet. Two accounts on the same host count as one, and inactive accounts are skipped. New streams go after the existing provider streams and before any custom stream. Adds only and never removes. In live mode it first saves each changed channel's previous stream order to `/data/stream_mapparr_snapshots/`, and changes nothing if that save fails. Writes every addition to `/config/stream-mapparr/fill-mirror-backups.txt` |
+| **Fill Mirror Backups** | For M3U accounts placed in one Dispatcharr server group that carry the same streams from different provider hosts, add to each channel the matching stream, found by provider stream id, from every other active account whose host the channel has no stream from yet. Two accounts on the same host count as one, and inactive accounts are skipped. New streams go after the existing provider streams and before any custom stream. Adds only and never removes. In live mode it first saves each changed channel's previous stream order to `snapshots/` in the plugin's data directory (see [Where Stream-Mapparr keeps its files](#where-stream-mapparr-keeps-its-files)), and changes nothing if that save fails. Writes every addition to `/config/stream-mapparr/fill-mirror-backups.txt` |
 | **Manage Channel Visibility** | Enable or disable channels based on stream count |
-| **View Check Progress** | Show the running operation's percentage and estimated time |
-| **View Last Results** | Show a summary of the last completed operation |
+| **View Status** | Show the running operation's percentage and estimated time, or a summary of the last completed operation when nothing is running |
 | **Clear CSV Exports** | Delete plugin CSV files, skipping any written in the last 40 minutes |
 | **Cleanup Orphaned Tasks** | Remove scheduled task entries left by an older version |
 | **Report a Bug or Request a Feature** | Write a ready-to-paste report with your settings, secrets masked |
@@ -369,11 +374,42 @@ asks the server to delete this install's figures. Once the server confirms the
 delete, the plugin forgets its id, and ticking the setting again later starts a
 new one; if the delete could not reach the server, the plugin keeps the id and
 retries. The plugin keeps that id and the timing of its reports in
-/data/plugin_stats/stream-mapparr/ (install_id, sent, backoff, disabled,
-delete_backoff, lock). To start a new id, untick the setting and let a run
+`usage/stream-mapparr/` inside the plugin's data directory (install_id, sent,
+backoff, disabled, delete_backoff, lock). To start a new id, untick the setting and let a run
 finish so the delete succeeds; deleting that folder while the setting is ticked
 leaves the old figures on the server, and the new id then sends the full total
 again, so the badge counts those matches twice.
+
+## Where Stream-Mapparr keeps its files
+
+Dispatcharr 0.34 gives each plugin a private data directory. On that version Stream-Mapparr
+keeps its state there, in `/data/plugins/_data/<plugin id>/` (for this plugin,
+`/data/plugins/_data/stream-mapparr/`). It holds the saved settings cache, the processed
+results, the last run's results, the match tally behind the Streams Matched badge, the
+channel snapshots, the readouts written when `/config` cannot be written, and the usage
+counts folder. On Dispatcharr 0.33 nothing moves.
+
+Four other places hold files:
+
+- `/data/plugins/_shared/newsflasharr/stream-mapparr/` holds the run reports that
+  Newsflasharr attaches to its notifications. The folder is shared with Newsflasharr.
+- `/data/exports/` holds the CSV exports, as before.
+- `/data/stream_mapparr_*` holds the files from earlier versions. The first run on this
+  version copies them across and leaves them where they are, and records what it copied in
+  `migrated.json` inside the data directory. Delete them by hand only when both of these are
+  true: the `failed` list in `migrated.json` is empty, and none of the old files has changed
+  since the time `migrated.json` records. A Dispatcharr process that still runs the earlier
+  version, such as a Celery worker that has not run a plugin action since the upgrade, keeps
+  writing the old files until it reloads the plugin, and a restart of Dispatcharr ends that.
+- `/data/plugins/_data/` holds seven small files beside the data directory:
+  `<plugin id>.scheduler.lock`, `<plugin id>.scheduler_last_run.json`, `<plugin id>.active`,
+  `<plugin id>.migrated`, `<plugin id>.operation.lock`, `<plugin id>.m3u_refresh.lock` and
+  `<plugin id>.m3u_refresh_pending` (the last exists only while a rerun is queued).
+
+Uninstalling the plugin and choosing "delete data" removes the data directory. That takes
+the match tally behind the Streams Matched badge and this install's anonymous usage id, so
+a reinstall starts a new id. The seven small files and the shared reports folder are not
+removed by that choice.
 
 ## Changelog
 

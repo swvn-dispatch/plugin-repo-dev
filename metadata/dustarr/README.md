@@ -2,32 +2,33 @@
 
 # Dustarr
 
-**Version:** `1.26.2901903` | **Author:** PiratesIRC | **Last Updated:** Oct 17 2026, 21:57 UTC
+**Version:** `1.26.3251749` | **Author:** PiratesIRC | **Last Updated:** Nov 21 2026, 17:57 UTC
 
 Records which channels are actually watched and reports the ones that are not, so you can turn off the dead weight in your lineup. Read only: it never changes a channel and never contacts your provider.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Discord](https://img.shields.io/badge/Discord-Discussion-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/channels/1340492560220684331/1542141054080524310) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PiratesIRC/Dispatcharr-Dustarr-Plugin)
 
-![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.20.0-brightgreen?style=flat-square)
+![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.34.0-brightgreen?style=flat-square)
 
 ## Downloads
 
 ### Latest Release
 
-- **Download:** [`dustarr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dustarr-1.26.2901903/dustarr-1.26.2901903.zip)
-- **Built:** Oct 28 2026, 13:34 UTC
-- **Source Commit:** [`1b882f2`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/1b882f233078ff663758cc1ecdf82ff16afea84a)
+- **Download:** [`dustarr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dustarr-1.26.3251749/dustarr-1.26.3251749.zip)
+- **Built:** Nov 26 2026, 14:04 UTC
+- **Source Commit:** [`8493bd8`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/8493bd83222784d7ff6fb0f28b8c6aa3b09edd3f)
 
 **Checksums:**
 ```
-MD5:    5d457ca12c31346cda8a080abbb0390a
-SHA256: 21b8d14c01e702ad18ac1d78ceb4c3b65ab19db826fb2e2e5cd4595c69ed90c9
+MD5:    17135d89a67bc9144675469a819a67b5
+SHA256: 968811b797bcde3f0c8f8b35b6f02af5f5dc7e4d2a0776d64e51e8532310c20c
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3251749` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dustarr-1.26.3251749/dustarr-1.26.3251749.zip) | Nov 26 2026, 14:04 UTC | [`8493bd8`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/8493bd83222784d7ff6fb0f28b8c6aa3b09edd3f) | 17135d89a67bc9144675469a819a67b5 | 968811b797bcde3f0c8f8b35b6f02af5f5dc7e4d2a0776d64e51e8532310c20c |
 | `1.26.2901903` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/dustarr-1.26.2901903/dustarr-1.26.2901903.zip) | Oct 28 2026, 13:34 UTC | [`1b882f2`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/1b882f233078ff663758cc1ecdf82ff16afea84a) | 5d457ca12c31346cda8a080abbb0390a | 21b8d14c01e702ad18ac1d78ceb4c3b65ab19db826fb2e2e5cd4595c69ed90c9 |
 
 ---
@@ -93,7 +94,7 @@ Click a heading and its tables appear.
 
 ## Requirements
 
-* Dispatcharr v0.20.0+
+* Dispatcharr v0.34.0+ (Dispatcharr 0.33 and earlier: use Dustarr 1.26.2901903)
 * The only internet access is the anonymous usage count: an HTTPS request to plugin-stats.dpas.workers.dev, which you can switch off (see [Anonymous usage counts](#anonymous-usage-counts)). The plugin never contacts your provider, never checks for its own updates, and fetches nothing when rendering a report.
 * The [Newsflasharr](https://github.com/PiratesIRC/Dispatcharr-Newsflasharr-Plugin) plugin, only if you want emailed reports. It is what actually sends the mail. Dustarr does not require it: with Newsflasharr absent or disabled, nothing is sent and nothing fails.
 

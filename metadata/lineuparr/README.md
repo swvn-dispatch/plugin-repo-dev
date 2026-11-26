@@ -2,32 +2,33 @@
 
 # Lineuparr
 
-**Version:** `1.26.3052143` | **Author:** PiratesIRC | **Last Updated:** Nov 01 2026, 21:50 UTC
+**Version:** `1.26.3262133` | **Author:** PiratesIRC | **Last Updated:** Nov 22 2026, 21:48 UTC
 
 Mirror real-world provider channel lineups by creating channel groups, channels, and fuzzy-matching IPTV streams to them.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PiratesIRC/Dispatcharr-Lineuparr-Plugin)
 
-![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.20.0-brightgreen?style=flat-square)
+![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.34.0-brightgreen?style=flat-square)
 
 ## Downloads
 
 ### Latest Release
 
-- **Download:** [`lineuparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.3052143/lineuparr-1.26.3052143.zip)
-- **Built:** Nov 12 2026, 17:17 UTC
-- **Source Commit:** [`19d1bec`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/19d1bece405d1567063fd0f3e69f393609b8bf5d)
+- **Download:** [`lineuparr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.3262133/lineuparr-1.26.3262133.zip)
+- **Built:** Nov 26 2026, 14:04 UTC
+- **Source Commit:** [`a7010ab`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/a7010aba5684952d55ece78ae2c99453fd367d59)
 
 **Checksums:**
 ```
-MD5:    e55015bc69c723c7ccef952eedbb11e1
-SHA256: a9ea5601a44db2b829595f281f98ee0358d7336d1c39939e8418e601ff6bac6e
+MD5:    0c05057e569f1ec42919ab7597ed70b4
+SHA256: d3a41005ba69863c099790019de65613bd9b8e2536e82a5f2988102cea85ff63
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3262133` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.3262133/lineuparr-1.26.3262133.zip) | Nov 26 2026, 14:04 UTC | [`a7010ab`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/a7010aba5684952d55ece78ae2c99453fd367d59) | 0c05057e569f1ec42919ab7597ed70b4 | d3a41005ba69863c099790019de65613bd9b8e2536e82a5f2988102cea85ff63 |
 | `1.26.3052143` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.3052143/lineuparr-1.26.3052143.zip) | Nov 12 2026, 17:17 UTC | [`19d1bec`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/19d1bece405d1567063fd0f3e69f393609b8bf5d) | e55015bc69c723c7ccef952eedbb11e1 | a9ea5601a44db2b829595f281f98ee0358d7336d1c39939e8418e601ff6bac6e |
 | `1.26.2901915` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/lineuparr-1.26.2901915/lineuparr-1.26.2901915.zip) | Oct 28 2026, 13:35 UTC | [`0d24250`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/0d24250ed3d41c58f7901674909f2b88042e892e) | b7e841d909c836e07a949dca42c47bba | a8e306c484d02a049e3289ce2f7ba263960ceb545d687927a9688f5bf9ed28bb |
 
@@ -115,7 +116,8 @@ The Verizon FiOS ZIP 11743 lineup is the one to look at if you are writing your 
 
 ## Requirements
 
-- Dispatcharr v0.20.0 or newer
+- Dispatcharr v0.34.0 or newer. The Plugin Hub does not offer this version to
+  Dispatcharr v0.33.0 or older.
 - At least one M3U source configured with streams
 - EPG sources configured, optional, for EPG matching
 

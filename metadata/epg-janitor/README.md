@@ -2,7 +2,7 @@
 
 # EPG Janitor
 
-**Version:** `1.26.2971931` | **Author:** PiratesIRC | **Last Updated:** Oct 24 2026, 16:03 UTC
+**Version:** `1.26.3262133` | **Author:** PiratesIRC | **Last Updated:** Nov 22 2026, 21:49 UTC
 
 Scans for channels with EPG assignments but no program data. Auto-matches EPG to channels using intelligent fuzzy matching with aliases, removes EPG from hidden channels, and manages EPG assignments.
 
@@ -14,20 +14,21 @@ Scans for channels with EPG assignments but no program data. Auto-matches EPG to
 
 ### Latest Release
 
-- **Download:** [`epg-janitor-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/epg-janitor-1.26.2971931/epg-janitor-1.26.2971931.zip)
-- **Built:** Oct 28 2026, 13:34 UTC
-- **Source Commit:** [`a936019`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/a936019d4a6d242aa44ea677a0f9591c776b738f)
+- **Download:** [`epg-janitor-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/epg-janitor-1.26.3262133/epg-janitor-1.26.3262133.zip)
+- **Built:** Nov 26 2026, 14:04 UTC
+- **Source Commit:** [`fe7dec5`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/fe7dec59bfd61ea9ff175532444dfb589024012f)
 
 **Checksums:**
 ```
-MD5:    93c6b8b0918a24bf2608d44e16ba18c6
-SHA256: f145ee0739b626b3b618eb4c639728cadad3872836b3a0f51b6894a1b8ad94fa
+MD5:    6d635427a9543adf3c6546f69aaf90a9
+SHA256: e54b121da1a4aaf916ab6a363c139f7082f39b6b5ac1bd7f0578d9287738ed48
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3262133` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/epg-janitor-1.26.3262133/epg-janitor-1.26.3262133.zip) | Nov 26 2026, 14:04 UTC | [`fe7dec5`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/fe7dec59bfd61ea9ff175532444dfb589024012f) | 6d635427a9543adf3c6546f69aaf90a9 | e54b121da1a4aaf916ab6a363c139f7082f39b6b5ac1bd7f0578d9287738ed48 |
 | `1.26.2971931` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/epg-janitor-1.26.2971931/epg-janitor-1.26.2971931.zip) | Oct 28 2026, 13:34 UTC | [`a936019`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/a936019d4a6d242aa44ea677a0f9591c776b738f) | 93c6b8b0918a24bf2608d44e16ba18c6 | f145ee0739b626b3b618eb4c639728cadad3872836b3a0f51b6894a1b8ad94fa |
 
 ---

@@ -2,32 +2,33 @@
 
 # IPTV Checker
 
-**Version:** `1.26.3121307` | **Author:** PiratesIRC | **Last Updated:** Nov 08 2026, 13:17 UTC
+**Version:** `1.26.3262133` | **Author:** PiratesIRC | **Last Updated:** Nov 22 2026, 21:49 UTC
 
 Check IPTV stream status and quality with ffprobe, then rename, move, restore or delete channels based on the result. Judges a channel by all of its streams, so a working backup never marks it dead.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/PiratesIRC/Dispatcharr-IPTV-Checker-Plugin)
 
-![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.20.0-brightgreen?style=flat-square)
+![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.34.0-brightgreen?style=flat-square)
 
 ## Downloads
 
 ### Latest Release
 
-- **Download:** [`iptv-checker-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/iptv-checker-1.26.3121307/iptv-checker-1.26.3121307.zip)
-- **Built:** Nov 12 2026, 17:17 UTC
-- **Source Commit:** [`d28367c`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/d28367c11c81c1972e20db28f0aa9ec371f00945)
+- **Download:** [`iptv-checker-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/iptv-checker-1.26.3262133/iptv-checker-1.26.3262133.zip)
+- **Built:** Nov 26 2026, 14:04 UTC
+- **Source Commit:** [`94a0f44`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/94a0f446dd708f749444c8523d2afd1cee714333)
 
 **Checksums:**
 ```
-MD5:    4c78b0cb51428d968ca74dd84eaa3e9a
-SHA256: c0e1752e3cc31ad862bbd50be95c2af169f89cd93c1d6bd06fbd1b5b9f4e96ed
+MD5:    bb8982de6f848f6d5166ca9bac756eeb
+SHA256: 6f9074357bbeab17e9ca40c0324e9ac262a8c4f46a26db3f0eb62962c7628aa6
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3262133` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/iptv-checker-1.26.3262133/iptv-checker-1.26.3262133.zip) | Nov 26 2026, 14:04 UTC | [`94a0f44`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/94a0f446dd708f749444c8523d2afd1cee714333) | bb8982de6f848f6d5166ca9bac756eeb | 6f9074357bbeab17e9ca40c0324e9ac262a8c4f46a26db3f0eb62962c7628aa6 |
 | `1.26.3121307` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/iptv-checker-1.26.3121307/iptv-checker-1.26.3121307.zip) | Nov 12 2026, 17:17 UTC | [`d28367c`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/d28367c11c81c1972e20db28f0aa9ec371f00945) | 4c78b0cb51428d968ca74dd84eaa3e9a | c0e1752e3cc31ad862bbd50be95c2af169f89cd93c1d6bd06fbd1b5b9f4e96ed |
 | `1.26.2901902` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/iptv-checker-1.26.2901902/iptv-checker-1.26.2901902.zip) | Oct 28 2026, 13:35 UTC | [`06c0d38`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/06c0d380e674e99b7fa98e5e0cf7b4914dd78eee) | faca88cf2cfb2ace4ed681e9bd75af80 | dfa15b723017d12efcb0855ca15dffebaac6c2aa30bc286556c01fdc87b31c9e |
 
@@ -87,7 +88,9 @@ Other things it does:
 
 ## Requirements
 
-- Dispatcharr v0.20.0 or newer, with channels and groups already configured.
+- Dispatcharr v0.34.0 or newer, with channels and groups already configured. The plugin uses the
+  0.34 plugin manifest, so Dispatcharr 0.33 and earlier cannot install this release; stay on
+  v1.26.3121307 there.
 - `ffprobe` in the container, and `ffmpeg` as well if you enable blank-screen, frozen-video or
   silent-audio detection.
 - `pytz` for the scheduler, which is normally already present.
@@ -110,11 +113,12 @@ No API credentials are needed. The plugin runs inside Dispatcharr with direct da
 
 ## Quick start
 
-1. Set **Channel Groups** and **Channel Groups Mode**. Leave the box empty to check every group.
+1. Pick groups in **Channel Groups** and set **Channel Groups Mode**. Leave the list empty to check
+   every group. Entries such as `US:*` pick every group whose name starts with `US:`.
 2. Click **Validate** to confirm the plugin can see your groups. It reports how many groups will be
    checked.
 3. Click **Load Groups**, then **Start Check**.
-4. Watch **View Progress**, then read **View Results** or **Email Report**.
+4. Click **View Status** to follow the check. It shows progress while the check runs and the last results once it finishes. **Email Report** sends the full report.
 
 ## Documentation
 

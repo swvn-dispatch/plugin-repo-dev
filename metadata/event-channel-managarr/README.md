@@ -2,7 +2,7 @@
 
 # Event Channel Managarr
 
-**Version:** `1.26.3111512` | **Author:** PiratesIRC | **Last Updated:** Nov 07 2026, 15:21 UTC
+**Version:** `1.26.3262214` | **Author:** PiratesIRC | **Last Updated:** Nov 22 2026, 22:23 UTC
 
 Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG.
 
@@ -14,20 +14,21 @@ Automates channel visibility by hiding channels without events and showing those
 
 ### Latest Release
 
-- **Download:** [`event-channel-managarr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/event-channel-managarr-1.26.3111512/event-channel-managarr-1.26.3111512.zip)
-- **Built:** Nov 12 2026, 17:17 UTC
-- **Source Commit:** [`d30b729`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/d30b729cf1384a97d9ab49af175bd8dbf5cc6cd6)
+- **Download:** [`event-channel-managarr-latest.zip`](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/event-channel-managarr-1.26.3262214/event-channel-managarr-1.26.3262214.zip)
+- **Built:** Nov 26 2026, 14:04 UTC
+- **Source Commit:** [`538e2b2`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/538e2b2a1d4d6196306daa876c9ef3d868a518c5)
 
 **Checksums:**
 ```
-MD5:    1b53a374f78b44e87282ef3f2a127918
-SHA256: 266be7c51a3ca269866f8b47116141340b3dcdb4482404aa385c9b768a3078ec
+MD5:    8b76834d74eb6d58f98b1ee384f4f8bc
+SHA256: a329ff5a38ee5b7706ba98940c7f3b8475e4dcbafb9fe2801a2249beaf61c287
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.3262214` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/event-channel-managarr-1.26.3262214/event-channel-managarr-1.26.3262214.zip) | Nov 26 2026, 14:04 UTC | [`538e2b2`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/538e2b2a1d4d6196306daa876c9ef3d868a518c5) | 8b76834d74eb6d58f98b1ee384f4f8bc | a329ff5a38ee5b7706ba98940c7f3b8475e4dcbafb9fe2801a2249beaf61c287 |
 | `1.26.3111512` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/event-channel-managarr-1.26.3111512/event-channel-managarr-1.26.3111512.zip) | Nov 12 2026, 17:17 UTC | [`d30b729`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/d30b729cf1384a97d9ab49af175bd8dbf5cc6cd6) | 1b53a374f78b44e87282ef3f2a127918 | 266be7c51a3ca269866f8b47116141340b3dcdb4482404aa385c9b768a3078ec |
 | `1.26.2981641` | [Download](https://github.com/swvn-dispatch/plugin-repo-dev/releases/download/event-channel-managarr-1.26.2981641/event-channel-managarr-1.26.2981641.zip) | Oct 28 2026, 13:34 UTC | [`4d86769`](https://github.com/swvn-dispatch/plugin-repo-dev/commit/4d867694d8e2ef82e0a5f3da4f0303738184df70) | 9c683c54b9455d047508472c364bf80a | 7716643164ded2cad2f2d523beb6cf4252f4ac27f6a190fd962665456575bbe2 |
 
@@ -51,10 +52,10 @@ A Dispatcharr plugin that automatically manages channel visibility based on EPG 
 
 ## Features
 
-**Decides visibility from the channel name.** A prioritised, fully customisable
-rule list decides what to hide and in what order, with the first matching rule
-winning. Rules cover a past date, a date too far ahead, a name that never carries a
-date at all, a name too short to describe an event, the wrong day of the week, a
+**Decides visibility from the channel name.** A fully customisable rule list
+decides what to hide: a channel that matches any rule in it is hidden, and the
+first rule that matches is named as the reason. Rules cover a past date, a date
+too far ahead, a name that never carries a date at all, a name too short to describe an event, the wrong day of the week, a
 blank or placeholder name, and a pattern you supply yourself. A name carrying a
 clock time but no date is hidden once that event's inferred end, plus a grace
 period you set, has passed.
