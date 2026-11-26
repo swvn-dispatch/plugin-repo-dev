@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:05:45Z",
+  "generated_at": "2026-11-26T14:23:51Z",
   "manifest": {
     "slug": "lineuparr",
     "name": "Lineuparr",
@@ -10,7 +10,7 @@
     "registry_url": "https://github.com/swvn-dispatch/plugin-repo-dev",
     "registry_name": "swvn-dispatch/plugin-repo-dev",
     "last_updated": "2026-11-22T21:48:57Z",
-    "download_count": 2,
+    "download_count": 3,
     "latest": {
       "version": "1.26.3262133",
       "commit_sha": "a7010aba5684952d55ece78ae2c99453fd367d59",
@@ -25,7 +25,7 @@
       "latest_url": "lineuparr-1.26.3262133/lineuparr-1.26.3262133.zip",
       "url": "lineuparr-1.26.3262133/lineuparr-1.26.3262133.zip",
       "size": 467,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -40,7 +40,7 @@
         "min_dispatcharr_version": "v0.34.0",
         "url": "lineuparr-1.26.3262133/lineuparr-1.26.3262133.zip",
         "size": 467,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "1.26.3052143",
